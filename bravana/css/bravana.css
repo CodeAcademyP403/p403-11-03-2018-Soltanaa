@@ -1,0 +1,286 @@
+*{
+
+}
+body{
+    width: 1000px;
+    height: 100%;
+    background: white;
+    margin: auto;
+}
+
+.black{
+    width: 100%;
+    height: 50px;
+    background: rgb(41, 40, 40);
+    position: relative;
+}
+
+.black .icon{
+width: 270px;
+height: 40px;
+position: absolute;
+top: 15px;
+left: 10px;
+}
+.icon i{
+    font-size: 1.3em;
+    color: white;
+    line-height: 30px;
+    padding: 0px 5px;
+    
+}
+
+.icon div{
+    position: absolute;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    background: gray;
+}
+
+.face{
+    top: -4px;
+    left: 20px;
+}
+.twit{
+    top: -4px;
+    left: 65px;
+}
+.link{
+    top: -4px;
+    left: 110px;
+}
+.drib{
+    top: -4px;
+    left: 155px;
+}
+.wifi{
+    top: -4px;
+    left: 200px;
+}
+
+.input{
+    position: absolute;
+    top: 10px;
+    right: 350px;
+    width: 200px;
+    height: 30px;
+    border-radius: 1px;
+    background: rgb(95, 94, 94);
+    text-align: right;
+    padding: 6px 5px;
+}
+
+.list-2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 350px;
+    height: 30x;
+}
+.list-2 ul{
+    display: inline-block;
+    list-style: none;
+    
+}
+.list-2 li{
+    float: left;
+    padding: 6px;
+    
+}
+.list-2 button{
+    padding: 2px 12px;
+}
+
+/* navigation */
+
+
+.container{
+    position: fixed;
+}
+
+/* navigation section */
+.navigation{
+    position: sticky;
+    width: 100%;
+    height: 80px;
+}
+
+.container{
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: relative;
+      
+}
+
+.setting{
+    width: 40px;
+    height: 40px;
+    background: white;
+    position: relative;
+    bottom: -25px;
+    left: 0px;
+    animation: rotate 3s linear infinite;
+}
+
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.green1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: green;
+    bottom: 17px;
+    left: -10px;
+}
+.green2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: green;
+    top: 26px;
+    left: -10px;
+}
+
+.text{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    
+}
+
+.setting i{
+    font-size: 2em;
+    line-height: 40px;
+    padding-left: 5px;
+    animation: rotate infinity alternate;
+    color: green;
+    
+}
+ .list{
+     position: absolute;
+     top: 25px;
+     right: 5px;
+     width: 68%;
+     height: 40px;
+     
+     
+ }
+ul{
+    list-style: none;
+    display: inline-block;
+       
+}
+.list li{
+    float: left;
+    padding: 3px;
+    color:rgb(104, 102, 102);
+}
+.list li i{
+    font-size:1.2em;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background: gray;
+    position: absolute;
+    top: 95px;
+    left: 0px;
+}
+/* end of navigation */
+
+/* second nav */
+
+.secondnav{
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: absolute;
+    top: 97px;
+    left: 0px;
+}
+
+.secondnav ul{
+    list-style: none;
+    display: inline-block;
+}
+.secondnav ul li{
+    float: left;
+    padding: 15px;
+}
+.line2{
+    width: 100%;
+    height: 2px;
+    background: gray;
+    position: absolute;
+    top: 147px;
+    left: 0px;
+}
+
+/* container2 */
+
+
+
+.row{
+    width: 75%;
+    height: 600px;
+    background: white;
+    position: absolute;
+    left: 185px;
+    top: 200px;
+   
+}
+
+.col-md-8{
+    /* border: 1px solid black; */
+    height: 600px;
+    margin-right: 2px;
+    padding: 40px 0px;;
+    /* margin-top:20px; */
+}
+.col-md-8 h4{
+    color: rgb(163, 159, 159);
+}
+
+
+
+.row ul{
+    list-style: none;
+    display: inline-block;
+    padding-left: 0px;
+}
+.row ul li{
+    float: left;
+    padding: 10px;
+}
+
+.row img{
+    width: 100%;
+    height: 76%;
+    object-fit: cover;
+}
+
+.col-md-4{
+    border: 1px solid red;
+    height: 600px;
+    margin-left: -2px;
+}
+
+.col-md-4 .col-md-2{
+width: 100%;
+height: 100x;
+background: antiquewhite;
+}
